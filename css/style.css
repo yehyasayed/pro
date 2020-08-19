@@ -1,0 +1,564 @@
+body{
+    margin: 0;
+    padding-top: 50px;
+    height: 4000px;
+    background-color: #000000;
+    color: white;
+    font-family: Tahoma, Geneva, sans-serif
+}
+/* General*/
+.mar{
+    margin: 50px 0;
+    color: #ffc451;
+}
+/* stat section navbar */
+.navbar{
+    margin-bottom: 0px;
+}
+.navbar-nav.navbar-right:last-child{
+    margin-right: 25%;
+}
+.navbar-inverse .navbar-brand{
+    color: rgb(255, 255, 255);
+    font-size:30px;
+}
+.navbar-inverse .navbar-brand span{
+    color: #ffc451;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #ffc451;
+}
+/* end section navbar */
+/* start section inter face */
+#particles-js{
+    height: 93.5vh;
+    width: 100%;
+    background-color: #262626;
+}
+#intro .content{
+    width: 20%;
+    height: 50vh;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    opacity: 0.3;
+    background-image: url("../images/background3.png");
+    background-size: cover;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 20px rgb(255, 255, 255) , 0px 0px 20px rgb(255, 255, 255);
+    -moz-box-shadow: 0px 0px 20px rgb(255, 255, 255) , 0px 0px 20px rgb(255, 255, 255);
+    -o-box-shadow: 0px 0px 20px rgb(255, 255, 255) , 0px 0px 20px rgb(255, 255, 255);
+    box-shadow: 0px 0px 20px rgb(255, 255, 255) , 0px 0px 20px rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all 1s;
+}
+#intro .content:hover{
+    opacity: 1;
+    -webkit-box-shadow: 3px 3px 20px rgb(255, 255, 255),-3px -3px 20px rgb(255, 255, 255);
+    -moz-box-shadow: 3px 3px 20px rgb(255, 255, 255),-3px -3px 20px rgb(255, 255, 255);
+    -o-box-shadow: 3px 3px 20px rgb(255, 255, 255),-3px -3px 20px rgb(255, 255, 255);
+    box-shadow: 3px 3px 20px rgb(255, 255, 255),-3px -3px 20px rgb(255, 255, 255);
+}
+@media (max-width:1400px) {
+    #intro .content{
+        width: 22%;
+        left: 40%;
+    }
+}
+@media (max-width:1200px) {
+    #intro .content{
+        width: 25%;
+        left: 35%;
+    }
+}
+@media (max-width:1100px) {
+    #intro .content{
+        width: 28%;
+        left: 35%;
+    }
+}
+@media (max-width:900px) {
+    #intro .content{
+        width: 35%;
+        left: 35%;
+    }
+}
+@media (max-width:700px) {
+    #intro .content{
+        width: 45%;
+        left: 30%;
+    }
+}
+@media (max-width:500px) {
+    #intro .content{
+        width: 55%;
+        left: 20%;
+    }
+}
+#intro .content div{
+    background-image: url("../images/yehya3.jpg");
+    background-size: cover;
+    width: 50%;
+    height: 40%;
+    border-radius: 50%;
+    margin: 20px auto 10px;
+}
+#intro .content h1{
+    color: rgb(0, 0, 0);
+}
+#intro .content p{
+    color: rgb(49, 49, 49);
+}
+/* end section inter face */
+/* start section about me */
+#about-me{
+    background-color: rgb(61, 61, 61);
+}
+#about-me .row{
+    margin-bottom: 100px;
+}
+#about-me h1{
+    color: #ffc451;
+    margin-top: 100px;
+}
+#about-me .aout-words{
+    overflow: hidden;
+}
+#about-me .aout-words h3{
+    display: inline-block;
+    font-size: 40px;
+    width: 30%;
+    text-align: right;
+    color: #ffc451;
+    margin-bottom: 30px;
+}
+#about-me .aout-words .change{
+    font-size: 30px;
+    width: 50%;
+    width: auto;
+    text-align: left;
+    display: inline-block;
+}
+#about-me .aout-words .line{
+    display: inline-block;
+    width: 3px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    top: 15px;
+}
+#about-me .aout-words p{
+    color: rgb(211, 211, 211);
+    font-size: 23px;
+    line-height: 40px;
+    margin-bottom: 100px;
+}
+#about-me .col-lg-4{
+    margin-bottom: 100px;
+}
+#about-me .im{
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    border: 1px solid rgb(100, 100, 100);
+    border-radius: 10px;
+}
+#about-me .im img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+/* end section about me */
+/* start section my skills */
+#my-skills .courses h2{
+    text-align: right;
+    color: rgb(255, 255, 255);
+    margin-bottom: 50px;
+}
+@media (max-width:1199px) {
+    #my-skills .courses h2{
+        text-align: center;
+    }
+}
+#my-skills .mar
+{
+    margin-bottom: 25px;
+}
+#my-skills .courses h2 span{
+    color: #ffc451;
+}
+#my-skills .progress
+{
+    margin-bottom: 52px;
+}
+#my-skills .prog
+{
+    margin-top: 25px;
+}
+#my-skills .progress div{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    line-height: 30px;
+}
+.progress {
+    height: 30px;
+}
+/* end section my skills */
+/* start section projectss */
+#Projects{
+    background-color: white;
+    padding-bottom: 150px;
+}
+#Projects .row{
+    margin-bottom: 100px;
+}
+.photos h1{
+    color: #ce8e3c;
+    margin: 150px 0 100px 0;
+}
+.photos .col-lg-4{
+    margin-bottom: 10px;
+}
+.photos .col-lg-4 .con{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+}
+.photos .col-lg-4 img{
+    position: absolute;
+    display: block;
+    width: 90%;
+    height: 40vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.photos .con div{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    transition: all 0.7s;
+    visibility: hidden;
+    opacity: 0;
+}
+.photos .con p{
+    width: 100%;
+    color: rgb(255, 255, 255);
+    z-index: 3;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    transition: bottom 0.7s ,opacity 0.5s;
+    visibility: hidden;
+    opacity: 0;
+}
+.photos .con i{
+    z-index: 3;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%,-50%);
+    font-size: 25px;
+    color: #000000;
+    background-color: #ffc451;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    transition: bottom 0.7s 0.2s , opacity 0.5s;
+    visibility: hidden;
+    opacity: 0;
+}
+.photos .col-lg-4 .con:hover{
+    cursor: pointer;
+}
+.photos .col-lg-4 .con:hover div{
+    visibility: visible;
+    opacity: 0.8;
+}
+.photos .col-lg-4 .con:hover p{
+    visibility: visible;
+    opacity: 1;
+    bottom: 40%;
+}
+.photos .col-lg-4 .con:hover i{
+    visibility: visible;
+    opacity: 1;
+    bottom: 20%;
+}
+/* end section projectss */
+/* *************************** contact-section ******************************* */
+.contact{
+    background-image: url(../images/4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.contact .cover{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.8;
+}
+.contact h1{
+    font-weight: bold;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    color: #ffc451;
+}
+.contact .info div{
+    margin-bottom: 75px;
+}
+.contact i{
+    font-size: 30px;
+    background: #ffc451;
+    color: #000000;
+    float: left;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+}
+.contact .info h4{
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #ffffff;
+    text-align: left;
+}
+.contact .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #a0a0a0;
+    text-align: left;
+}
+.contact form {
+    padding-top: 10px;
+}
+.contact form  input{
+    font-size: 20px;
+}
+.form-group{
+    margin-bottom: 25px;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    background-clip: padding-box;
+    border: 1.5px solid #ffffff;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.contact form input:focus{
+    border: 3px solid #ffc451;
+}
+.contact form .width input{
+    width: 96%;
+    margin: auto;
+}
+.contact form .width textarea{
+    width: 96%;
+    margin: auto;
+    display: block;
+    padding: .375rem .75rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    background-clip: padding-box;
+    border: 1.5px solid #ffffff;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    height: 150px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.contact form .width textarea:focus{
+    border: 4px solid #ffc451;
+}
+.contact form .width div:last-child{
+    width: 100%;
+}
+.contact form .width input[type="submit"]{
+    background-color: #ffc451;
+    border: none;
+    display: block;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 50px;
+}
+.new-contact .wow{
+    margin-bottom: 100px;
+}
+.contact .new-contact i{
+    font-size: 50px;
+    background: #ffc451;
+    color: #000000;
+    width: 77px;
+    height: 77px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    transition: all 0.3s ease-in-out;
+    float: none;
+    margin: 0 auto;
+
+}
+.contact .new-contact a{
+    display: block;
+    font-size: 15px;
+    text-align: center;
+    color: #ffffff;
+}
+.contact .new-contact a:hover{
+    display: block;
+    font-size: 15px;
+    text-align: center;
+    color: #ffc451;
+}
+/*  ************************  the end   ******************************  */
+.the-end{
+    background-color: white;
+}
+.the-end .row {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.the-end .row div h1{
+    font-size: 30px;
+    color: #ce8e3c;
+}
+.the-end .row div p{
+    font-size: 20px;
+    color: rgb(129, 129, 129);
+    margin-right: 40px;
+}
+.the-end .row div p:hover{
+    color: #000000;
+}
+/* ***************************  footer  ******************************* */
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 150px;
+}
+.footer h5{
+    color: rgb(255, 255, 255);
+    margin-top: 70px;
+}
+.footer p{
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    font-size: 18px;
+}
+.footer p span{
+    color: #ffc451;
+}
+/* ***************************  go top  ******************************* */
+.go-top{
+    display: none;
+    position: fixed;
+    right: 2%;
+    bottom: 3%;
+    font-size: 15px;
+    height: 50px;
+    width: 50px;
+    background-color: #ffc451;
+    border: none;
+    color: black;
+    z-index: 99999;
+}
+/* ***************************  loding  ******************************* */
+.loading-overlay {
+    background:#222;
+    color:#FFF;
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    z-index:99999
+}
+.sk-cube-grid {
+    width: 40px;
+    height: 40px;
+    margin: 50vh auto;
+  }
+  
+  .sk-cube-grid .sk-cube {
+    width: 33%;
+    height: 33%;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    -webkit-animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;
+            animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out; 
+  }
+  .sk-cube-grid .sk-cube1 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
+  .sk-cube-grid .sk-cube2 {
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s; }
+  .sk-cube-grid .sk-cube3 {
+    -webkit-animation-delay: 0.4s;
+            animation-delay: 0.4s; }
+  .sk-cube-grid .sk-cube4 {
+    -webkit-animation-delay: 0.1s;
+            animation-delay: 0.1s; }
+  .sk-cube-grid .sk-cube5 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
+  .sk-cube-grid .sk-cube6 {
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s; }
+  .sk-cube-grid .sk-cube7 {
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s; }
+  .sk-cube-grid .sk-cube8 {
+    -webkit-animation-delay: 0.1s;
+            animation-delay: 0.1s; }
+  .sk-cube-grid .sk-cube9 {
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s; }
+  
+  @-webkit-keyframes sk-cubeGridScaleDelay {
+    0%, 70%, 100% {
+      -webkit-transform: scale3D(1, 1, 1);
+              transform: scale3D(1, 1, 1);
+    } 35% {
+      -webkit-transform: scale3D(0, 0, 1);
+              transform: scale3D(0, 0, 1); 
+    }
+  }
+  
+  @keyframes sk-cubeGridScaleDelay {
+    0%, 70%, 100% {
+      -webkit-transform: scale3D(1, 1, 1);
+              transform: scale3D(1, 1, 1);
+    } 35% {
+      -webkit-transform: scale3D(0, 0, 1);
+              transform: scale3D(0, 0, 1);
+    } 
+  }
